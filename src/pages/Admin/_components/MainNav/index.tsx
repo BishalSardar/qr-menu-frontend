@@ -9,11 +9,11 @@ import { AlignJustify, ShoppingCart } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Badge } from "antd";
 import SideBar from "../Sidebar";
-import Search from "../Search";
+import Search from "../SearchBox";
 
 const MainNav = () => {
   return (
-    <div className="flex justify-between items-center px-5 sm:px-10 pt-3">
+    <div className="flex justify-between items-center px-5 sm:px-10 py-2">
       <div>
         <Link to="/admin/home">
           <h1 className="text-lg lg:text-3xl font-black text-orange-500 tracking-tight">
