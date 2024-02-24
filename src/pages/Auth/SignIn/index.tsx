@@ -55,7 +55,7 @@ const SignIn = () => {
         toast.success("Signin successfull");
         const tokens = res.data.token;
         setTokenCookie(tokens);
-        navigate("/admin");
+        navigate("/admin/home");
       }
     } catch (error) {
       console.log(error);
